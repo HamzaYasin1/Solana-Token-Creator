@@ -4,9 +4,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "node api.js && next dev",
-    "build": "node api.js && next build",
-    "start": "node api.js && next start",
+    "dev": " next dev",
+    "build": " next build",
+    "start": " next start",
     "lint": "next lint && yarn prettier",
     "prettier": "prettier --check --config ./.prettierrc  \"./**/*.{js,jsx,json,md,ts,tsx,yml,css}\"",
     "prettier:fix": "prettier --config ./.prettierrc --write \"./**/*.{js,jsx,json,md,ts,tsx,yml,css}\""
